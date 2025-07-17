@@ -14,6 +14,10 @@ Check if remote origin is connected for testing purposes
 Making the stage for the files to be committed 
 ```git add .```
 
-Create a message for that specific version of our project
+Create a message for that specific version of our project. A common initial message is “Initial commit, [filename] created”
+```git commit -m "[your initial commit message]"```
+
+Push the commit to your main in Github
 ```git push origin main```
+
 
